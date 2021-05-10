@@ -171,12 +171,11 @@ form input
 }
 .bloc_hergement
 {
-  margin-top: 670px;
 
 }
 aside
 {
-  margin-top: 110px;
+
 }
 .heber_title
 {
@@ -212,10 +211,10 @@ margin-left: -45px;
 }
 .bloc_populaire
 {
-  margin-left: -11px;
-  margin-top: -2780px;
-  margin-right: -20px;
-  border-radius: 0%;
+
+
+
+  
 
 }
 .emile, .febrian , .aw
@@ -234,7 +233,7 @@ margin-left: -45px;
 }
 .actibloc
 {
-  margin-top: 2000px;
+  padding-top: 30px;
   flex-direction: column;
 }
 .actibloc h3
@@ -244,17 +243,17 @@ margin-left: -45px;
 }
 .picture_auberge, .picture_zakaria
 {
-  width: auto;
+  width: 100%;
   height: 180px;
 }
 .picture_ann
 {
-  width: auto;
+  width: 100%;
   height: 185px;
 }
 .picture_nicate
 {
-  width: auto;
+  width: 100%;
   height: 190px;
 
 }
@@ -383,179 +382,3 @@ padding-bottom: 50px;
   margin-right: 370px;
 }
  }
-
-
- @media screen and (max-width: 800px)
- {
-
-   .no-box-shadow,
-   .cards{
-     display: flex;
-     flex-direction: column;
-   }
-   .card{
-         width: calc(100% - 46px);
-   }
-   .sm-card{
-     margin-top: 30px;
-   }
-
- }
-
-
- .cards{
-   display: flex;
-   flex-direction: row;
- }
- .card{
-   width: calc(100% / 4 - 10px);
-   margin: 20px;
-   padding: 0px;
-   border-radius: 10px;
-   box-shadow: 0 0 35px #F2F2F2;
-   overflow: hidden;
-   white-space: nowrap;
- }
- .card img{
-   width: 100%;
-   height: calc(100% - 55px);
- }
- .no-box-shadow{
-   box-shadow: none;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
- }
- .no-box-shadow .lg-card{
-   box-shadow: 0 0 35px #F2F2F2;
-   border-radius: 12px;
-   overflow: hidden;
-   height: 50%;
- }
- .no-box-shadow .sm-card{
-   height: calc(50% - 50px);
-   box-shadow: 0 0 35px #F2F2F2;
-   border-radius: 18px;
-   overflow: hidden;
- }
- .lg-card-2,
- .sm-card-2{
-   box-shadow: 0 0 35px #F2F2F2;
-   border-radius: 18px;
-   overflow: hidden;
-   height: 45%;
- }
- .cards h2
- {
-   padding-left: 20px;
- }
-
- footer
- {
- display: flex;
- justify-content: space-between;
- background-color: #F2F2F2;
- padding-top: 50px;
- padding-bottom: 50px;
- }
- .foot_1
- {
-   margin-left: 30px;
- }
- .foot_2
- {
-   margin-left: -100px;
- }
- .foot_3
- {
-   margin-right: 370px;
- }
-  }
-
-
-  @media screen and (max-width: 800px)
-  {
-
-    .no-box-shadow,
-    .cards{
-      display: flex;
-      flex-direction: column;
-    }
-    .card{
-          width: calc(100% - 46px);
-    }
-    .sm-card{
-      margin-top: 30px;
-    }
-
-  }
-
-
-  .cards{
-    display: flex;
-    flex-direction: row;
-  }
-  .card{
-    width: calc(100% / 4 - 10px);
-    margin: 20px;
-    padding: 0px;
-    border-radius: 10px;
-    box-shadow: 0 0 35px #F2F2F2;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  .card img{
-    width: 100%;
-    height: calc(100% - 55px);
-  }
-  .no-box-shadow{
-    box-shadow: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .no-box-shadow .lg-card{
-    box-shadow: 0 0 35px #F2F2F2;
-    border-radius: 12px;
-    overflow: hidden;
-    height: 50%;
-  }
-  .no-box-shadow .sm-card{
-    height: calc(50% - 50px);
-    box-shadow: 0 0 35px #F2F2F2;
-    border-radius: 18px;
-    overflow: hidden;
-  }
-  .lg-card-2,
-  .sm-card-2{
-    box-shadow: 0 0 35px #F2F2F2;
-    border-radius: 18px;
-    overflow: hidden;
-    height: 45%;
-  }
-  .cards h2
-  {
-    padding-left: 20px;
-  }
-
-  footer
-  {
-  display: flex;
-  justify-content: space-between;
-  background-color: #F2F2F2;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  }
-  .foot_1
-  {
-    margin-left: 30px;
-  }
-  .foot_2
-  {
-    margin-left: -100px;
-  }
-  .foot_3
-  {
-    margin-right: 370px;
-  }
-   }

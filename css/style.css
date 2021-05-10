@@ -228,7 +228,7 @@ label{
 }
 .filters h2
 {
-  margin-bottom: 230px;
+
 }
 
 .filters_button input {
@@ -307,19 +307,14 @@ label{
 {
   display:flex;
   justify-content: flex-start;
-  margin-top: -200px;
+
 }
 .bloc_hergement
-{
+{ width: 65%;
   background-color: #F2F2F2;
   border-radius: 3%;
-margin-right: 470px;
 padding-bottom: 40px;
 padding-top: 0.5px;
-margin-top: 20px;
-
-
-
 }
 .heber
 {
@@ -337,18 +332,18 @@ margin-top: 20px;
 {
 
   height: 113px;
-  width: auto;
+  width: 100%;
   border-radius: 5% 5% 0% 0%;
 }
 .auberge, .port, .mouette, .annie, .nicate, .zakaria
 {
   background-color: white;
   text-decoration: none;
-
+  width: 30%;
   border: 2px solid #white;
-  margin-right: 5px;
+
   margin-top: 20px;
-  margin-left: 25px;
+
   padding-top: 5px;
   padding-left: 5px;
   border-radius: 5%;
@@ -362,7 +357,8 @@ box-shadow: 10px 10px 10px #D8D4EA;
 }
 .line_photos
 {display: flex;
-flex-wrap: wrap;}
+flex-wrap: wrap;
+justify-content: space-around;}
 .picture_annie, .picture_nicate
 {
   height: 113px;
@@ -388,6 +384,13 @@ flex-wrap: wrap;}
   margin-left: 30px;
   margin-top: 50px;
 }
+.hebergements
+{display: flex;
+justify-content: space-around;}
+aside
+{
+  width: 32%;
+}
 a
 {text-decoration: none;
 color: black;}
@@ -400,9 +403,9 @@ aside a:hover, .bloc_hergement a:hover
   padding-bottom: 36px;
 
 
-  margin-left: 880px;
+
   background-color: #F2F2F2;
-  margin-top: -647px;
+
   display: flex;
   flex-direction: column;
   margin-bottom: 80px;
