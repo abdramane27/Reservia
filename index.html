@@ -4,29 +4,36 @@
 
    <meta charset="utf-8" />
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" media="all" href="css/responsive.css" />
  </head>
 <body>
 <header>
-  <div id="logo">
-    <img src="images/Reservia.svg" alt="logo reservia" /></div>
+
     <div id="navi">
-    <nav>
-    <ul>
-    <li><a href="#ancre_heber" class="navhebr">Hébergements</a></li>
-    <li><a href="#ancre_activite" class="acti">Activités</a></a></li>
-    <li><a href="" class="inscrire">S'inscrire</a></li>
-  </ul>
-    </nav>
+
+            <nav>
+                <a id="logo" href="#"><img src="images/Reservia.svg" alt="logo réservia"></a>
+
+                <ul>
+                    <li><a href= "#ancre_heber">Hébergements</a></li>
+                    <li><a href="#ancre_activite">Activités</a></li>
+                </ul>
+                <div id="sub"><a  href="#">S'inscrire</a></div>
+
+            </nav>
+
+
+
   </div>
 </header>
 <section>
   <div class="first">
-    <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+    <h3 class="heber_title">Trouvez votre hébergement pour des vacances de rêve</h3>
     <p class="little">En plein centre ville ou en pleine nature</p>
     <div id="formulaire">
     <div id="gps">
 
-    <img src="images/icon/map.svg" alt="carte"></div>
+    <img src="images/icon/map.svg" alt="carte" class="gps-picture"></div>
     <form>
       <p>
         <input type="text"  value="Marseille, France" />
@@ -34,6 +41,9 @@
     </form>
 
 <button class="recherche">Rechercher</button>
+<button class="search">
+  <img src="images/icon/search.png" alt="loupe" class="search_picture"/>
+</button>
 </div>
 </div>
 <div class="filters">
@@ -84,13 +94,13 @@
 
 
 <section>
-  <div class="bloc_hergement">
+  <div class="bloc_hergement" id="ancre_heber">
   <h3 id="ancre_heber" class="heber">Hébergements à Marseille</h3>
   <div class="line_photos">
   <div class="auberge"><a href="#">
     <img src="images/photos/marcus-medium.jpg" class="picture_auberge">
     <h2 class="description">Auberge la Cannebière</h2>
-    <p class="price">Nuit à partir de <strong>25€</strong></p>
+    <p class="price">Nuit à partir de <strong>25€</strong></p></a>
     <div class="line_stars"><img src="images/icon/star.png" class="star_1">
   <img src="images/icon/star.png" class="star_1">
   <img src="images/icon/star.png" class="star_1">
@@ -98,10 +108,10 @@
   <img src="images/icon/star_g.png" class="star_2">
 
 </div>
-</div></a>
+</div>
 <div class="port">
   <a href="#">
-  <img src="images/photos/fred-medium.jpg" class="picture_auberge">
+  <img src="images/photos/fred-medium.jpg" class="picture_ann">
   <h2 class="description">Hôtel du port</h2>
   <p class="price">Nuit à partir de 52<strong>€</strong></p>
 </a>
@@ -205,26 +215,58 @@
 </div>
 </aside>
 
-<section>
+<section class="actibloc">
 
     <h3 id="ancre_activite">Activités à Marseille</h3>
-    <a href="#"><img src="images/photos/reno1-xlarge.jpg" class="vieux">
-      <div class="vieux_port"><h2 class="titre_port">Vieux Port</h2></div></a>
-      <div class="picture-aside">
-      <a href="#"><img src="images/photos/paul-large.jpg" class="paul">
-        <div class="title-paul"><h2 class="titre-fort">Fort de Pomègues</h2></div></a>
-        <a href="#"><img src="images/photos/kevin-large.jpg" class="kevin">
-          <div class="title-kevin"><h2 class="titre-ile">Îles du Frioul</h2></div></a>
-        </div>
-        <div class="activite_2">
-        <a href="#"><img src="images/photos/kilyan-xlarge.jpg" class="kilyan">
-          <div class="calanques"><h2 class="titre_port">Parc National des Calanques</h2></div></a>
-          <div class="picture-aside2">
-          <a href="#"><img src="images/photos/florian-xlarge.jpg" class="florian_pic">
-            <div class="title-florian"><h2 class="titre-fort">Notre-Dame-de-la-Garde</h2></div></a>
-            <a href="#"><img src="images/photos/lena-xlarge.jpg" class="lena_pic">
-              <div class="title-lena"><h2 class="titre-ile">Parc Longchamp</h2></div></a>
+    <div class="cards">
+  <div class="card">
+<a href="#">
+      <img src="images/photos/reno1-xlarge.jpg" class="vieux">
+      <img src="images/photos/reno-responsive.jpg" class="reno-r">
+    </a>
+    <h2>Vieux port</h2>
+</div>
+
+
+<div class="card no-box-shadow">
+<div class="lg-card">
+<a href="#">
+  <img src="images/photos/paul-large.jpg" class="paul">
+  </a>
+  <h2>Fort de Pomègues</h2>
+    </div>
+
+    <div class="card-2 sm-card">
+      <a href="#">
+        <img src="images/photos/kevin-large.jpg" class="kevin">
+          </a>
+          <h2>Îles du Frioul</h2>
             </div>
+        </div>
+
+         <div class="card">
+         <a href="#">
+          <img src="images/photos/kilyan-xlarge.jpg" class="kilyan">
+          <img src="images/photos/kilyan-responsive.jpg" class="kil_responsive">
+        </a>
+          <h2 >Parc National des Calanques</h2>
+        </div>
+        <div class="card no-box-shadow">
+      <div class="sm-card-2">
+
+
+          <a href="#">
+            <img src="images/photos/florian-xlarge.jpg" class="florian_pic">
+            </a>
+            <h2>Notre-Dame-de-la-Garde</h2>
+          </div>
+  <div class="lg-card-2">
+            <a href="#">
+              <img src="images/photos/lena-xlarge.jpg" class="lena_pic">
+              </a>
+              <h2 class="titre-ile">Parc Longchamp</h2>
+            </div>
+          </div>
           </div>
 
 </section>
@@ -263,19 +305,6 @@
 
 
 
-</footer>
 
-
-
-
-
-
-
-
-
-
-
-
-</body>
 
 </html>

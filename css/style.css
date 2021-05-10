@@ -15,27 +15,33 @@ header
 #logo
 {
 
-  margin-top: 35px;
+  margin-top: 0px;
+
+  width: 65%;
 
 }
+
 
 
 nav ul
 {
   list-style-type: none;
   display: flex;
+  padding-left: 0px;
+  margin-left: 850px;
+  margin-top: -32px;
 
 
 
 
-  padding-bottom: 130px;
-  margin-left: 350px;
+  width: 100%;
 
 
 }
 nav li
 {
   margin-right: 0px;
+  padding-right: 110px;
 
 
 
@@ -53,12 +59,26 @@ nav a
 nav a:hover
 {
   color: #0065FC;
+  border-top: 2px solid #0065FC;
+  padding-top: 40px;
+
+
 
 
 }
+#sub
+{
+  margin-left: 1220px;
+  margin-top: -34px;
+}
+#sub a
+{
+  color: #0065FC;
+  font-weight: bold;
+}
 .acti, .navhebr
 {
-  margin-right: 100px;
+
 
 }
 
@@ -68,11 +88,6 @@ font-family: 'Raleway_thin';
 }
 h2{
   font-size: 0.9em;
-}
-.first
-{
-margin-top: -105px;
-
 }
 .little, .index p, p
 {
@@ -112,28 +127,13 @@ margin-top: -105px;
 
 
 }
-.acti:hover
 
-{
-  border-top: 1px solid #0065FC;
-  padding-top: 50px;
-}
-.navhebr:hover
-{
-  border-top: 1px solid #0065FC;
-  padding-top: 50px;
-}
-.inscrire:hover
-{
-  border-top: 1px solid #0065FC;
-  padding-top: 50px;
-}
 #formulaire
 { display: flex;
   justify-content: flex-start;
 
   flex-wrap: nowrap;
-  margin-bottom: : 50px;
+
 
 
 
@@ -177,9 +177,13 @@ form input
 
   justify-content: space-around;
   padding-top: 22px;
-  margin-left: 160px;
-  margin-right: 30px;
-  margin-top: 15px;
+
+
+  width: 100%;
+}
+.first
+{
+  padding-top:30px;
 }
 
 .filters{
@@ -309,9 +313,10 @@ label{
 {
   background-color: #F2F2F2;
   border-radius: 3%;
-margin-right: 480px;
+margin-right: 470px;
 padding-bottom: 40px;
 padding-top: 0.5px;
+margin-top: 20px;
 
 
 
@@ -366,7 +371,7 @@ flex-wrap: wrap;}
 }
 .picture_zakaria
 {
-  height: 113px;
+  height: 112px;
   width: auto;
   border-radius: 5% 5% 0% 0%;
 
@@ -386,7 +391,7 @@ flex-wrap: wrap;}
 a
 {text-decoration: none;
 color: black;}
-a:hover
+aside a:hover, .bloc_hergement a:hover
 {color: #0065FC;}
 .bloc_populaire
 {
@@ -559,213 +564,15 @@ margin-right: 0px;
   margin-top: 100px;
 }
 
-.picture-aside
+
+.kil_responsive,.reno-r
 {
-margin-left: 340px;
-margin-top: -455px;
+  width: auto ! important;
+    height: 190px ! important;
 }
-.vieux
-{
-  width: auto;
-  height: 400px;
-  margin-left: 0px;
-  margin-top: 10px;
-  border-radius: 6% 6% 0% 0%;
-margin-bottom: -0px;
 
 
-}
-.titre_port, .titre-fort, .titre-ile
-{
-padding-left: 15px;
-margin-bottom: 10px;
-margin-top: 10px;
-padding-top: 10px;
 
-}
-.vieux_port
-
-{
-  border: 2px solid #F2F2F2;
-  padding-bottom: 10px;
-
-  margin-right: 1015px;
-
-  border-radius: 0% 0% 25% 25%;
-  box-shadow: 3px 6px 9px #F2F2F2;
-  margin-top: -10px;
-  text-decoration: none;
-
-
-}
-.paul
-{
-  width:auto;
-  height:170px;
-  border-radius:6% 6% 0% 0%;
-
-
-}
-.title-paul, .title-kevin
-{
-  border: 2px solid #F2F2F2;
-padding-bottom: 10px;
-
-margin-right: 671px;
-
-border-radius: 0% 0% 25% 25%;
-box-shadow: 3px 6px 9px #F2F2F2;
-margin-top: -10px;
-margin-bottom: 40px;
-text-decoration: none;
-}
-.activite_2
-{
-  margin-left: 680px;
-  margin-top: -491px;
-}
-.kevin
-{
-  width:auto;
-  height:133.6px;
-  border-radius:6% 6% 0% 0%;
-
-
-}
-.kilyan
-{
-  width:auto;
-  height: 397px;
-  border-radius:6% 6% 0% 0%;
-
-}
-.florian_pic
-{
-  width: auto;
-  height: 144px;
-  border-radius:6% 6% 0% 0%;
-}
-.lena_pic
-{
-  width: auto;
-  height: 166.5px;
-  border-radius:6% 6% 0% 0%;
-
-}
-.title-florian, .title-lena
-{
-  border: 2px solid #F2F2F2;
-padding-bottom: 10px;
-
-margin-right: 12px;
-
-border-radius: 0% 0% 25% 25%;
-box-shadow: 3px 6px 9px #F2F2F2;
-margin-top: -10px;
-margin-bottom: 40px;
-text-decoration: none;
-}
-.calanques
-{
-  border: 2px solid #F2F2F2;
-  padding-bottom: 10px;
-
-  margin-right: 363px;
-  padding-right: 180px;
-
-  border-radius: 0% 0% 25% 25%;
-  box-shadow: 3px 6px 9px #F2F2F2;
-  margin-top: -10px;
-  text-decoration: none;
-  white-space: nowrap;
-
-}
-.vieux_port:hover, .title-florian:hover, .title-lena:hover, .title-paul:hover, .title-kevin:hover, .calanques:hover
-{
-  box-shadow: 10px 10px 10px #F2F2F2;
-}
-.picture-aside2
-{
-
-  margin-left: 320px;
-  margin-top: -455px;
-
-}
-footer
-{
-display: flex;
-justify-content: space-between;
-background-color: #F2F2F2;
-padding-top: 50px;
-padding-bottom: 50px;
-}
-.foot_1
-{
-  margin-left: 30px;
-}
-.foot_2
-{
-  margin-left: -100px;
-}
-.foot_3
-{
-  margin-right: 370px;
-}
-@media screen and (max-width: 1280px)
-{
-  body, header, section{ flex-direction: column;
-  }
-  .navhebr
-  {
-    margin-left: -520px;
-
-
-}
-.acti
-{
-  margin-left: -320px;
-}
-.inscrire
-{
-  margin-left: -230px;
-  margin-top: 40px;
-}
-.acti:hover
-
-{
-  border-bottom: 1px solid #0065FC;
-  padding-bottom: 20px;
-}
-.navhebr:hover
-{
-  border-bottom: 1px solid #0065FC;
-  padding-bottom: 20px;
-}
-.inscrire:hover
-{
-  border-bottom: 1px solid #0065FC;
-  padding-bottom: 20px;
-}
-.bloc_hergement
-{
-  margin-top: 990px;
-}
-.index
-{
-  margin-top: 5px;
-}
-.filters_wrapper
-{
-margin-top: 60px;
-margin-left: 2px;
-}
-.bloc_populaire
-{
-  margin-left: 10px;
-  margin-top: -2560px;
-  margin-bottom: 1500px
-}
-.actibloc
-{
-  margin-top: 6565px;
+.card:hover, .no-box-shadow:hover, .lg-card:hover, .sm-card:hover, .lg-card-2:hover, .sm-card-2:hover, img:hover
+{  box-shadow: 16px 16px 16px #F2F2F2;
 }

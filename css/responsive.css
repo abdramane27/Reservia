@@ -1,0 +1,561 @@
+@media screen and (max-width: 1280px)
+{
+  body, header, section, footer, .actibloc{ flex-direction: column;
+  }
+  .navhebr
+  {
+
+    font-size: 1em;
+border-bottom-width: medium;
+
+}
+#logo
+{width: 50%;
+  margin-left: 13px;
+
+    border-top: none;
+    padding-top: 0px;
+}
+nav li
+{  width: 50%;
+padding-right: 0px;}
+
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "logo sub" "nav nav";
+}
+nav #logo {
+  grid-area: logo;
+  width: 100px;
+
+}
+
+nav #logo img {
+  height: auto;
+}
+#sub
+{
+  margin-top: 0px;
+}
+nav #sub {
+  grid-area: sub;
+  height: 50%;
+  padding: 23px 10% 0 0;
+  justify-self: end;
+  font-size: 1.1em;
+}
+nav #sub a {
+  color: #0065fc;
+  font-weight: 600;
+
+    border-top: none;
+    padding-top: 0px;
+}
+nav ul {
+  grid-area: nav;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  width: 50%;
+  text-align: center;
+  font-size: 1.1em;
+}
+nav ul a {
+  display: block;
+  margin: 30px 0 0 0;
+  height: 30px;
+  border-bottom: 3px solid #f2f2f2;
+}
+nav ul a:hover {
+  color: #0065fc;
+  font-weight: 600;
+  border-bottom: 3px solid #0065fc;
+  transition: 0.1s ease-in-out;
+
+    border-top: none;
+    padding-top: 0px;
+}
+
+
+
+#formulaire
+{
+margin-left: 12px;
+}
+form
+{
+  margin-top: -1px;
+
+}
+#gps
+{
+  margin-top: 16px;
+  padding-bottom: 37px;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+.gps-picture
+{
+  width: auto;
+  height: 17px;
+    padding-top: 10px;
+}
+}
+.little, .index p, p
+{
+  font-size: 0.9em;
+
+}
+.little
+{margin-left: 12px;
+  font-size: 1.1em;
+      margin-top: -15px;}
+
+h2{
+  font-size: 1em;
+}
+.acti
+{
+
+  font-size: 1em;
+}
+.inscrire
+{
+
+  display: grid;
+  font-size: 1em;
+}
+
+.search_picture
+{
+  width: auto;
+  height: 20px;
+  margin-top: 10px;
+  padding-left: 1px;
+
+    color: white;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.search
+{
+  background-color: #0065FC;
+  margin-top: 17px;
+    margin-bottom: 10px;
+
+    padding-right: 15px;
+    border-radius: 20%;
+    border: 1px solid #0065FC;
+    padding-left: 19px;
+    margin-left: -8px;
+
+}
+form value
+{
+  padding-left: 3px;
+}
+form input
+{
+  padding: 20px;
+  padding-right: 80px;
+    font-size: 1.2em;
+}
+.filters_button span {
+  margin: 0px 15px 0 42px;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+.bloc_hergement
+{
+  margin-top: 670px;
+
+}
+aside
+{
+  margin-top: 110px;
+}
+.heber_title
+{
+  word-wrap: break-word;
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-left: 10px;
+
+
+}
+.heber, .bloc_hergement h3
+{
+  white-space: nowrap;
+
+
+}
+.index
+{
+  margin-top: 5px;
+  word-wrap: break-word;
+  margin-left: 13px;
+
+}
+.filters h2
+{
+  margin-left: 12px;
+  margin-top: 1px;
+}
+.filters_wrapper
+{
+margin-top: 60px;
+margin-left: -45px;
+}
+.bloc_populaire
+{
+  margin-left: -11px;
+  margin-top: -2780px;
+  margin-right: -20px;
+  border-radius: 0%;
+
+}
+.emile, .febrian , .aw
+{
+  margin-right: 45px;
+}
+.no-box-shadow,
+.cards{
+  display: flex;
+  flex-direction: column;
+}
+.card
+{
+  width: auto;
+  margin: 20px;
+}
+.actibloc
+{
+  margin-top: 2000px;
+  flex-direction: column;
+}
+.actibloc h3
+{
+  margin-left: 30px;
+    font-size: 1.4em;
+}
+.picture_auberge, .picture_zakaria
+{
+  width: auto;
+  height: 180px;
+}
+.picture_ann
+{
+  width: auto;
+  height: 185px;
+}
+.picture_nicate
+{
+  width: auto;
+  height: 190px;
+
+}
+
+.no-box-shadow .lg-card{
+  box-shadow: 0 0 35px #F2F2F2;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 200%;
+}
+.no-box-shadow .sm-card{
+  height: calc(200% - 200px);
+  box-shadow: 0 0 35px #F2F2F2;
+  border-radius: 18px;
+  overflow: hidden;
+}
+.lg-card-2,
+.sm-card-2{
+  box-shadow: 0 0 35px #F2F2F2;
+  border-radius: 18px;
+  overflow: hidden;
+  height: 195%;
+  margin-top: 30px;
+}
+footer
+{
+  margin-right: -60px;
+    margin-left: -10px;
+    font-size: 1.1em;
+    margin-bottom: -10px;
+}
+.foot_2, .foot_3
+{margin-left: 30px;
+white-space: nowrap;}
+.recherche
+{
+  display: none;
+}
+.kilyan,.vieux
+{
+  display: none;
+}
+@media screen and (max-width: 800px)
+{
+
+  .no-box-shadow,
+  .cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+        width: calc(100% - 46px);
+  }
+  .sm-card{
+    margin-top: 30px;
+  }
+
+}
+
+
+.cards{
+  display: flex;
+  flex-direction: row;
+}
+.card{
+  width: calc(100% / 4 - 10px);
+  margin: 20px;
+  padding: 0px;
+  border-radius: 10px;
+  box-shadow: 0 0 35px #F2F2F2;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.card img{
+  width: 100%;
+  height: calc(100% - 55px);
+}
+.no-box-shadow{
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.no-box-shadow .lg-card{
+  box-shadow: 0 0 35px #F2F2F2;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 50%;
+}
+.no-box-shadow .sm-card{
+  height: calc(50% - 50px);
+  box-shadow: 0 0 35px #F2F2F2;
+  border-radius: 18px;
+  overflow: hidden;
+}
+.lg-card-2,
+.sm-card-2{
+  box-shadow: 0 0 35px #F2F2F2;
+  border-radius: 18px;
+  overflow: hidden;
+  height: 45%;
+}
+.cards h2
+{
+  padding-left: 20px;
+}
+
+footer
+{
+display: flex;
+justify-content: space-between;
+background-color: #F2F2F2;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.foot_1
+{
+  margin-left: 30px;
+}
+.foot_2
+{
+  margin-left: -100px;
+}
+.foot_3
+{
+  margin-right: 370px;
+}
+ }
+
+
+ @media screen and (max-width: 800px)
+ {
+
+   .no-box-shadow,
+   .cards{
+     display: flex;
+     flex-direction: column;
+   }
+   .card{
+         width: calc(100% - 46px);
+   }
+   .sm-card{
+     margin-top: 30px;
+   }
+
+ }
+
+
+ .cards{
+   display: flex;
+   flex-direction: row;
+ }
+ .card{
+   width: calc(100% / 4 - 10px);
+   margin: 20px;
+   padding: 0px;
+   border-radius: 10px;
+   box-shadow: 0 0 35px #F2F2F2;
+   overflow: hidden;
+   white-space: nowrap;
+ }
+ .card img{
+   width: 100%;
+   height: calc(100% - 55px);
+ }
+ .no-box-shadow{
+   box-shadow: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+ .no-box-shadow .lg-card{
+   box-shadow: 0 0 35px #F2F2F2;
+   border-radius: 12px;
+   overflow: hidden;
+   height: 50%;
+ }
+ .no-box-shadow .sm-card{
+   height: calc(50% - 50px);
+   box-shadow: 0 0 35px #F2F2F2;
+   border-radius: 18px;
+   overflow: hidden;
+ }
+ .lg-card-2,
+ .sm-card-2{
+   box-shadow: 0 0 35px #F2F2F2;
+   border-radius: 18px;
+   overflow: hidden;
+   height: 45%;
+ }
+ .cards h2
+ {
+   padding-left: 20px;
+ }
+
+ footer
+ {
+ display: flex;
+ justify-content: space-between;
+ background-color: #F2F2F2;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ }
+ .foot_1
+ {
+   margin-left: 30px;
+ }
+ .foot_2
+ {
+   margin-left: -100px;
+ }
+ .foot_3
+ {
+   margin-right: 370px;
+ }
+  }
+
+
+  @media screen and (max-width: 800px)
+  {
+
+    .no-box-shadow,
+    .cards{
+      display: flex;
+      flex-direction: column;
+    }
+    .card{
+          width: calc(100% - 46px);
+    }
+    .sm-card{
+      margin-top: 30px;
+    }
+
+  }
+
+
+  .cards{
+    display: flex;
+    flex-direction: row;
+  }
+  .card{
+    width: calc(100% / 4 - 10px);
+    margin: 20px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 35px #F2F2F2;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .card img{
+    width: 100%;
+    height: calc(100% - 55px);
+  }
+  .no-box-shadow{
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .no-box-shadow .lg-card{
+    box-shadow: 0 0 35px #F2F2F2;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 50%;
+  }
+  .no-box-shadow .sm-card{
+    height: calc(50% - 50px);
+    box-shadow: 0 0 35px #F2F2F2;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+  .lg-card-2,
+  .sm-card-2{
+    box-shadow: 0 0 35px #F2F2F2;
+    border-radius: 18px;
+    overflow: hidden;
+    height: 45%;
+  }
+  .cards h2
+  {
+    padding-left: 20px;
+  }
+
+  footer
+  {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F2F2F2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  }
+  .foot_1
+  {
+    margin-left: 30px;
+  }
+  .foot_2
+  {
+    margin-left: -100px;
+  }
+  .foot_3
+  {
+    margin-right: 370px;
+  }
+   }
