@@ -3,7 +3,7 @@
   font-family: 'Raleway_thin';
   src: url('font/Raleway-V.ttf');
   font-weight: normal;
-  font-size: normal;
+
 }
 header
 {
@@ -106,7 +106,7 @@ h2{
   text-decoration: none;
   font-weight: bold;
   color: #0065FC;
-  font: Raleway_thin;
+
 }
 
 #formulaire
@@ -318,7 +318,6 @@ label{
   background-color: white;
   text-decoration: none;
   width: 30%;
-  border: 2px solid #white;
   margin-top: 20px;
   padding: 5px;
   border-radius: 5%;
@@ -424,8 +423,6 @@ label{
       {
         background-color: white;
         text-decoration: none;
-
-        border: 2px solid #white;
         margin-right: 30px;
         margin-top: 20px;
         margin-left: 40px;
@@ -470,8 +467,6 @@ label{
       {
         background-color: white;
         text-decoration: none;
-
-        border: 2px solid #white;
         margin-right: 30px;
         margin-top: 20px;
         margin-left: 40px;
@@ -509,8 +504,6 @@ label{
       {
         background-color: white;
         text-decoration: none;
-
-        border: 2px solid #white;
         margin-right: 30px;
         margin-top: 20px;
         margin-left: 40px;
