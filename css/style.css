@@ -46,7 +46,7 @@ nav a:hover
   padding-top: 40px;
 
 }
-#logo a:hover
+#logo img:hover
 {
   display: none;
 }
@@ -94,7 +94,7 @@ h2{
   background-color: #0065FC;
   text-decoration: none;
   font-size: 0.8em;
-  margin: 15px 16px 10px -1px;
+  margin: 15px 16px 10px -2px;
   font-weight: bold;
   padding-left: 10px;
   padding-right: 10px;
@@ -320,7 +320,7 @@ label{
   width: 30%;
   margin-top: 20px;
   padding: 5px;
-  border-radius: 5%;
+  border-radius: 10px;
   box-shadow: 2px 2px 2px #D8D4EA;
 }
 
@@ -344,20 +344,20 @@ label{
   {
     height: 142px;
     width: 100%;
-    border-radius: 5% 5% 0% 0%;
+    border-radius: 5px 5px 0% 0%;
   }
   .picture_zakaria
   {
     height: 112px;
     width: 100%;
-    border-radius: 5% 5% 0% 0%;
+    border-radius: 5px 5px 0% 0%;
 
   }
   .picture_ann
   {
     height: 142.5px;
     width: 100%;
-    border-radius: 5% 5% 0% 0%;
+    border-radius: 5px 5px 0% 0%;
 
   }
   .picture_port,
@@ -367,7 +367,7 @@ label{
   {
     width: 100%;
     height: 142px;
-    border-radius: 5% 5% 0% 0%;
+    border-radius: 5px 5px 0% 0%;
 
   }
   .plus
@@ -399,6 +399,10 @@ label{
         margin-left: 10px;
 
       }
+      .text-photo-star:hover, .cards h2:hover
+      {
+        color: #0065FC;
+      }
       .populaires
       {
         display: flex;
@@ -428,7 +432,7 @@ label{
         margin-left: 40px;
         padding-top: 2px;
         padding-left:2px;
-        border-radius: 6%;
+        border-radius: 10px;
         padding-bottom: 1px;
         box-shadow: 2px 2px 2px #D8D4EA;
 
@@ -440,7 +444,7 @@ label{
         margin-left: 2px;
         margin-top: 2px;
 
-        border-radius: 6% 0% 0% 6%;
+        border-radius: 6px 0% 0% 6px;
         margin-right: 0px;
       }
       .description
@@ -472,7 +476,7 @@ label{
         margin-left: 40px;
         padding-top: 3px;
         padding-left:2px;
-        border-radius: 6%;
+        border-radius: 10px;
         padding-right: 5px;
         box-shadow: 2px 2px 2px #D8D4EA;
 
@@ -484,7 +488,7 @@ label{
         margin-left: 2px;
         margin-top: 2px;
         margin-bottom: 2px;
-        border-radius: 6% 0% 0% 6%;
+        border-radius: 6px 0% 0% 6px;
         margin-right: 0px;
 
       }
@@ -495,7 +499,7 @@ label{
         margin-left: 2px;
         margin-top: 2px;
         margin-bottom: 2px;
-        border-radius: 6% 0% 0% 6%;
+        border-radius: 6px 0% 0% 6px;
         margin-right: 0px;
 
       }
@@ -509,7 +513,7 @@ label{
         margin-left: 40px;
         padding-top: 3px;
         padding-left:2px;
-        border-radius: 6%;
+        border-radius: 10px;
         padding-right: 5px;
         box-shadow: 2px 2px 2px #D8D4EA;
 
@@ -547,8 +551,8 @@ label{
 
 
 
-      .card:hover,.lg-card:hover, .sm-card:hover, .lg-card-2:hover, .sm-card-2:hover, img:hover
-      {  box-shadow: 16px 16px 16px #F2F2F2;
+      .card:hover,.lg-card:hover, .sm-card:hover, .lg-card-2:hover, .sm-card-2:hover
+      {  box-shadow: 0px 16px 9px #F2F2F2;
       }
       .card
       .hebergements
@@ -576,24 +580,36 @@ label{
         width: 100%;
         height: calc(100% - 55px);
       }
+
+      .no-box-shadow:hover
+      {
+        box-shadow: 0px 20px 20px #F2F2F2;
+      }
       .no-box-shadow{
         box-shadow: none;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        border: 1px solid white;
       }
-      .no-box-shadow .lg-card{
-        box-shadow: 0 0 35px #F2F2F2;
+      .lg-card{
+        box-shadow: 0 0 20px #F2F2F2;
         border-radius: 12px;
         overflow: hidden;
         height: 50%;
       }
-      .no-box-shadow .sm-card{
+      .sm-card{
         height: calc(50% - 50px);
-        box-shadow: 0 0 35px #F2F2F2;
         border-radius: 18px;
         overflow: hidden;
+        
       }
+      .sm-card:hover
+      {
+        box-shadow: 56px 56px px #F2F2F2;
+        border-bottom:
+      }
+
       .lg-card-2,
       .sm-card-2{
         box-shadow: 0 0 35px #F2F2F2;

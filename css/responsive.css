@@ -16,14 +16,11 @@
   .aw a img,
   .emile a img
   {
-    border-radius: 4% 0% 0% 4%;
+
     width: 100%;
     height: 200px;
   }
-  .emile, .aw, .febrian
-  {
-    border-radius: 3%;
-  }
+
   .sun_stars, .sun_stars_aw, .sun_stars_feb
   {
     margin-top: 100px;
@@ -127,7 +124,7 @@ nav #logo img {
 nav #sub {
   grid-area: sub;
   height: 50%;
-  padding: 23px 10% 0 0;
+  padding: 17px 20% 0 0;
   justify-self: end;
   font-size: 1.1em;
 }
@@ -168,7 +165,7 @@ nav ul a:hover {
 
 #formulaire
 {
-margin-left: 12px;
+margin-left: 7px;
 }
 form
 {
@@ -176,8 +173,8 @@ form
 }
 #gps
 {
-  margin-top: 16px;
-  padding-bottom: 37px;
+  margin-top: 17px;
+  padding-bottom: 35px;
     padding-right: 22px;
     padding-left: 22px;
 }
@@ -240,7 +237,7 @@ h2{
 {
   display: block;
   background-color: #0065FC;
-  margin-top: 16px;
+  margin-top: 17px;
     margin-bottom: 10px;
 
     padding-right: 15px;
@@ -256,9 +253,21 @@ form value
 }
 form input
 {
-  padding-bottom: 26px;
-  padding-right: 80px;
+  padding-bottom: 18px;
+  padding-top: 19px;
+  padding-right: 0px;
+  margin-right: 0px;
+
     font-size: 1.2em;
+}
+.filters_button
+{
+  margin: 0px 10px 20px 5px;
+}
+.filters_wrapper
+{
+  flex-wrap: wrap !important;
+  margin-left: 13px;
 }
 .filters_button span {
   margin: 0px 15px 0 42px;
@@ -271,6 +280,11 @@ form input
   margin-left: 20px;
   white-space: nowrap;
 
+}
+.emile,.aw, .febrian
+{
+  margin-left: 20px;
+  margin-right: 20px
 }
 .hebergements
 {
@@ -290,8 +304,9 @@ aside
 {
   word-wrap: break-word;
   font-weight: bold;
-  font-size: 1.8em;
-  margin-left: 10px;
+  font-size: 1.4em;
+  margin-left: 12px;
+  margin-bottom: 30px;
 
 
 }
@@ -300,13 +315,16 @@ aside
   white-space: nowrap;
   font-weight: bold;
   font-size: 1.3em;
+  padding-left: 0px;
+  margin-top: 40px;
 }
+
 .index
 {
   margin-top: 5px;
   word-wrap: break-word;
   margin-left: 13px;
-  font-size: 1.3em;
+  font-size: 1.2em;
 
 }
 .info
@@ -332,14 +350,18 @@ aside
 .picture_nicate,
 .picture_amina
 {
-  height: 190px;
+  height: 145px;
+  border-radius: 10px 10px 0% 0%;
+  margin-left: -5px;
+  width: 100%;
 }
 
 .auberge, .port, .mouette, .annie, .nicate, .zakaria
 {
     margin-bottom: 10px;
-    width: 95%;
-    padding: 5px;
+    width: 100%;
+    padding: 0px;
+
 }
 .filters
 {
@@ -366,7 +388,7 @@ aside
 }
 .text-photo-star
 {
-  margin-left: 10px;
+
     white-space: nowrap;
 }
 
@@ -390,8 +412,8 @@ aside
 }
 .card
 {
-  width: auto;
-  margin: 10px;
+  width: 100%;
+  margin-left: 2px;
 }
 .cards img, .card img
 {
@@ -403,11 +425,11 @@ aside
 {
 
   flex-direction: column;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .actibloc h3
 {
-  margin-left: 30px;
+  margin-left: 15px;
     font-size: 1.4em;
 }
 
@@ -417,7 +439,7 @@ aside
   border-radius: 12px;
   overflow: hidden;
   height: 200%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 
 }
 .no-box-shadow .sm-card{
@@ -433,7 +455,7 @@ aside
   border-radius: 18px;
   overflow: hidden;
   height: 195%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 footer
 {
