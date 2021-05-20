@@ -389,7 +389,7 @@ label{
       {color: #0065FC;}
       .bloc_populaire
       {
-        border: 2px solid #F2F2F2;
+        
         border-radius: 3%;
         padding-bottom: 36px;
         background-color: #F2F2F2;
@@ -583,7 +583,7 @@ label{
 
       .no-box-shadow:hover
       {
-        box-shadow: 0px 20px 20px #F2F2F2;
+        box-shadow: 0px 0px 0px white;
       }
       .no-box-shadow{
         box-shadow: none;
@@ -593,7 +593,7 @@ label{
         border: 1px solid white;
       }
       .lg-card{
-        box-shadow: 0 0 20px #F2F2F2;
+        box-shadow: 0px 6px 9px #F2F2F2;
         border-radius: 12px;
         overflow: hidden;
         height: 50%;
@@ -602,13 +602,11 @@ label{
         height: calc(50% - 50px);
         border-radius: 18px;
         overflow: hidden;
-        
+        box-shadow: 0px 1px 9px #F2F2F2;
+        margin-bottom: 3px;
+
       }
-      .sm-card:hover
-      {
-        box-shadow: 56px 56px px #F2F2F2;
-        border-bottom:
-      }
+
 
       .lg-card-2,
       .sm-card-2{
@@ -616,6 +614,9 @@ label{
         border-radius: 18px;
         overflow: hidden;
         height: 45%;
+        box-shadow: 0px 1px 9px #F2F2F2;
+        margin-bottom: 3px;
+
       }
       .cards h2
       {

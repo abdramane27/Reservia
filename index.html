@@ -9,13 +9,11 @@
  </head>
 <body>
 <header>
-
+    <!--Barre de naviguation -->
     <div id="navi">
-
-            <nav>
+             <nav>
                 <a id="logo" href="#"><img src="images/Reservia.svg" alt="logo réservia"></a>
-
-                <ul>
+                 <ul>
                     <li><a href= "#ancre_heber">Hébergements</a></li>
                     <li><a href="#ancre_activite">Activités</a></li>
                 </ul>
@@ -27,6 +25,7 @@
   <div class="first">
     <h3 class="heber_title">Trouvez votre hébergement pour des vacances de rêve</h3>
     <p class="little">En plein centre ville ou en pleine nature</p>
+    <!--Barre de recherche -->
     <div id="formulaire">
     <div id="gps">
 
@@ -43,43 +42,41 @@
 </button>
 </div>
 </div>
+ <!--Barre de filtres -->
 <div class="filters">
                    <h2>Filtres</h2>
+   <div class="filters_wrapper">
+               <div class="filters_button_container">
+                    <div class="icon_container filters_icon"><img src="images/icon/money.png" class="fas_fa-money-bill-wave" alt="billet"></div>
+                    <label for="economic__filter" class="filters_button">
+                    <input type="checkbox"  id="economic__filter" name="filtres">
+                    <span>Économique</span>
+                    </label>
+               </div>
 
+                <div class="filters_button_container">
+                    <div class="icon_container filters_icon"><img src="images/icon/child.png" class="fas_fa-child" alt="enfant"></div>
+                    <label for="familial__filter" class="filters_button">
+                    <input type="checkbox"  id="familial__filter" name="filtres">
+                    <span>Familial</span>
+                    </label>
+               </div>
 
-                   <div class="filters_wrapper">
+                <div class="filters_button_container">
+                    <div class="icon_container filters_icon"><img src="images/icon/heart.png" class="fas_fa-heart" alt="coeur"></div>
+                    <label for="romantic__filter" class="filters_button">
+                    <input type="checkbox"  id="romantic__filter" name="filtres">
+                    <span>Romantique</span>
+                    </label>
+               </div>
 
-                       <div class="filters_button_container">
-                           <div class="icon_container filters_icon"><img src="images/icon/money.png" class="fas_fa-money-bill-wave" alt="billet"></div>
-                               <label for="economic__filter" class="filters_button">
-                                   <input type="checkbox"  id="economic__filter" name="filtres">
-                                   <span>Économique</span>
-                               </label>
-                       </div>
-
-                       <div class="filters_button_container">
-                           <div class="icon_container filters_icon"><img src="images/icon/child.png" class="fas_fa-child" alt="enfant"></div>
-                               <label for="familial__filter" class="filters_button">
-                                   <input type="checkbox"  id="familial__filter" name="filtres">
-                                   <span>Familial</span>
-                               </label>
-                       </div>
-
-                       <div class="filters_button_container">
-                           <div class="icon_container filters_icon"><img src="images/icon/heart.png" class="fas_fa-heart" alt="coeur"></div>
-                               <label for="romantic__filter" class="filters_button">
-                                   <input type="checkbox"  id="romantic__filter" name="filtres">
-                                   <span>Romantique</span>
-                               </label>
-                       </div>
-
-                       <div class="filters_button_container">
-                           <div class="icon_container filters_icon"><img src="images/icon/dog.png" class="fas_fa-dog" alt="chien"></div>
-                               <label for="animals__filter" class="filters_button">
-                                   <input type="checkbox"  id="animals__filter" name="filtres">
-                                   <span>Animaux autorisés</span>
-                               </label>
-                       </div>
+                <div class="filters_button_container">
+                    <div class="icon_container filters_icon"><img src="images/icon/dog.png" class="fas_fa-dog" alt="chien"></div>
+                    <label for="animals__filter" class="filters_button">
+                    <input type="checkbox"  id="animals__filter" name="filtres">
+                    <span>Animaux autorisés</span>
+                    </label>
+              </div>
 
                    </div>
                </div>
@@ -89,7 +86,7 @@
 
 </section >
 
-
+<!--Fenêtre hébergements -->
 <section class="hebergements">
   <div class="bloc_hergement">
   <h3 id="ancre_heber" class="heber">Hébergements à Marseille</h3>
@@ -170,6 +167,7 @@
 </div>
 <a href="#"><h3 class="plus">Afficher plus</h3></a>
 </div>
+<!--Fenêtre populaire -->
 <aside>
   <div class="bloc_populaire">
   <div class="populaires">
@@ -219,7 +217,7 @@
 
 </section>
 
-
+<!--Fenêtre activités -->
 <section class="actibloc">
 
     <h3 id="ancre_activite">Activités à Marseille</h3>
@@ -295,21 +293,6 @@
 
   </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
 
 </html>
